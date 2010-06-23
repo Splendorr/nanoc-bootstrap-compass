@@ -17,3 +17,11 @@ Before you do anything, make sure that you have Compass installed. Issue `gem in
 To compile the site, simply use `nanoc3 co`.
 
 You may want to edit the Compass configuration (`config.rb`) to suit your needs.
+
+
+Including Susy
+--------------
+
+This variation of ddfreyne's bootstrap project includes [Susy](http://susy.oddbird.net/) 0.7.0, which is a fluid layout template system. Ensure that you have run "gem install compass-susy-plugin" before you try to use this.
+
+I've also converted the Susy stylesheets from .scss to .sass, and all .html to .haml, to accommodate my personal preferences.
